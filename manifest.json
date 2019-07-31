@@ -1,10 +1,10 @@
 {
   "name": "nyslwebapp",
-  "short_name": "nWapp",
+  "short_name": "nyslwebapp",
   "lang": "en-EN",
   "start_url": "/index.html",
   "background_color": "#2C3E50",
-  "theme_color": "#18BC9C",
+  "theme_color": "#033949",
   "display": "standalone",
   "icons": [
   {
