@@ -1,17 +1,30 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <!-- Barra navegacion -->
+    <Navbar/>
+   <div class="row">
+     <div class="col m-3"> <img class="img-fluid" alt="NYSL" src="./assets/logo.png"></div>
+   </div>
+   <div class="container">
+    <div class="row">
+      <div class="col">
+        <Schedules/>
+      </div>
+     </div>
+   </div>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import Navbar from '@/components/Navbar.vue'
+import Schedules from '@/components/Schedules.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Navbar,
+    Schedules
   }
 }
 </script>
@@ -23,6 +36,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 </style>
